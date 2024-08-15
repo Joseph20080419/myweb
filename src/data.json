@@ -1,0 +1,13 @@
+{
+    "myprofile" : [
+        {"id" : "1", "name" : "이름", "value" : "비형"},
+        {"id" : "2", "name" : "성별", "value" : "도깨비"}
+    ],
+    "wise" : [
+        {"content" : "상처 받았다고 해서 괴물이 되어선 안돼. -신유승"}
+    ],
+    "friend" : [
+        {"id" : "1", "name" : "최문경", "url" : "https://www.instagram.com/moo_n0803/"},
+        {"id" : "2", "name" : "이상현", "url" : "youtube.com/"}
+    ]
+}

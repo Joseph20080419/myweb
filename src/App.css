@@ -1,38 +1,135 @@
-.App {
-  text-align: center;
+* {
+  padding: 0;
+  margin: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background-color: rgb(78, 58, 60);
+  color: rgb(255, 255, 255);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 0.9s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container {
+  max-width: 700px;
+  margin: 0 auth;
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: white;
 }
 
-.App-link {
-  color: #6fff00;
+header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  padding:  1.2rem 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+header p {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+header ul {
+  display: flex;
+}
+header ul li {
+  list-style-type: none;
+  margin-left: 1.5rem;
+}
+header ul li a {
+  text-decoration: none;
+  color: rgb(196, 150, 150);
+}
+
+header ul li a:hover {
+  border-bottom: 5px solid gray;
+}
+
+.txt1 {
+  color: rgb(16, 108, 228);
+}
+
+@media screen and (max-width:600px) {
+  header {
+    flex-direction: column;
   }
-  to {
-    transform: rotate(360deg);
-  }
+}
+
+section {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+section p {
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.prophoto {
+  margin: 2rem;
+  border-radius: 25%;
+}
+
+.prodesc {
+  width: 200px;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+}
+
+section[id="st1"] ul {
+  padding: 5px;
+}
+section[id="st"] ul li {
+  display: flex;
+  color:antiquewhite;
+}
+.proessay {
+  font-size: 1.2rem;
+  max-width: 360px;
+  margin: 0 auto;
+  line-height: 1.8rem;
+  letter-spacing:  2px;
+  word-spacing: 1px;
+  text-indent: 10px;
+  text-align: left;
+}
+
+section[id="st2"] ul {
+  position: relative;
+  width: 400px;
+  margin: 100px auth 0;
+  padding: 10px;
+  box-sizing: border-box;
+}
+section[id="st2"] ul li {
+  display: flex;
+  background-color: bisque;
+  padding: 10px 20px;
+  color: blueviolet;
+  margin: 5px 0;
+  transition: .5s;
+  border-radius: 20px;
+  font-size: 1.2rem;
+}
+section[id="st2"] ul li:hover {
+  transform: scale(1.05);
+  background-color: rgb(148, 116, 76);
+}
+section[id="st2"] a {
+  text-decoration: none;
+  color: black;
+}
+
+footer {
+  margin-bottom: 2rem;
+  font-size: 1.2rem;
+  color: gray;
+}
+
+footer a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
 }
